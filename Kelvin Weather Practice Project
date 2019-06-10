@@ -1,0 +1,12 @@
+//This is the constant variable for the current temperature in Kelvin.
+const kelvin = 0;
+//This is the constant variable representing the temperature in Celsius.
+let celsius = kelvin - 273;
+//This is the constant variable representing the temperature in Fahrenheit.
+let fahrenheit = celsius*(9/5) + 32;
+//This rounds down the decimal result of the original Fahrenheit result.
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+//This is me converting the Celsius to a Newton scale.
+let newton = Math.floor(celsius*(33/100))
+console.log(`The temperature is ${newton} degrees Newton.`);
